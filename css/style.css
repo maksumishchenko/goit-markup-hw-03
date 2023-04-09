@@ -84,12 +84,14 @@ body {
 
 .header-div {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 25.5px 141px;
 }
 
 .header-nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -113,6 +115,7 @@ body {
   line-height: 1.5;
   color: var(--color-navy-blue);
   display: flex;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -136,6 +139,7 @@ body {
 
 .header-link {
   display: flex;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -182,6 +186,7 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  width: 1440px;
 }
 
 .main-btn {
@@ -216,11 +221,13 @@ body {
 .features-section {
   padding: 120px 0;
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
 .feature-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -261,6 +268,7 @@ body {
 
 .thirth-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -271,7 +279,9 @@ body {
 
 .team-list {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
+  width: 1440px;
 }
 
 .team-iteam {
@@ -322,6 +332,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   display: flex;
+  justify-content: center;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -368,9 +379,11 @@ body {
 
 .product-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: 1440px;
 }
 
 .product-iteam {
