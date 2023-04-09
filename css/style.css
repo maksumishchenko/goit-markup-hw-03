@@ -85,8 +85,7 @@ body {
 .header-div {
   display: flex;
   align-items: center;
-  width: 1158px;
-  padding: 0 15px;
+  margin: 25.5px 141px;
 }
 
 .header-nav {
@@ -115,6 +114,10 @@ body {
   color: var(--color-navy-blue);
   display: flex;
   gap: 40px;
+}
+
+.header-list:last-child {
+  margin-right: 332px;
 }
 
 .header-iteam {
@@ -162,6 +165,8 @@ body {
   text-align: center;
   color: var(--color-white);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .main-text {
@@ -196,6 +201,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .main-btn:hover,
@@ -318,6 +324,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  margin-left: 156px;
 }
 
 .second-logo {
@@ -329,6 +336,7 @@ body {
   line-height: 1.5;
   color: var(--color-cloud);
   max-width: 264px;
+  margin-left: 156px;
 }
 
 .secondary-btn {
@@ -386,4 +394,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
 }
