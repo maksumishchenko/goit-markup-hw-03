@@ -1,4 +1,9 @@
 :root {
+  /* Формула для таблиц */
+
+  --iteam: 3;
+  --column: 24px;
+
   /* Fonts */
 
   --primary-font: "Roboto", sans-serif;
@@ -279,7 +284,7 @@ body {
 .thirth-iteam {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
-  flex-basis: calc((100% - 24px * 2) / 3);
+  flex-basis: calc((100% - var(var(--column)) * var(--iteam)-1) / var(--iteam));
 }
 
 .team-list {
@@ -291,12 +296,13 @@ body {
 }
 
 .team-iteam {
+  --iteam: 4;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 24px * 3) / 4);
+  flex-basis: calc((100% - var(var(--column)) * var(--iteam)-1) / var(--iteam));
 }
 
 .team-section {
@@ -397,7 +403,7 @@ body {
 .product-iteam {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
-  flex-basis: calc((100% - 24px * 2) / 3);
+  flex-basis: calc((100% - var(var(--column)) * var(--iteam)-1) / var(--iteam));
 }
 
 .app-descr {
