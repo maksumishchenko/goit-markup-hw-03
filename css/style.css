@@ -175,7 +175,7 @@ body {
   text-align: center;
   color: var(--color-white);
   max-width: 496px;
-  margin-left: 472px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
@@ -192,7 +192,6 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  width: 1440px;
   border-radius: 4px;
 }
 
@@ -213,7 +212,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: 636px;
+  margin: 0 auto;
 }
 
 .main-btn:hover,
@@ -262,7 +261,6 @@ body {
 }
 
 .name-section {
-  width: 1440px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -277,8 +275,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  width: 1132px;
-  margin-left: 156px;
+  margin: 0 auto;
 }
 
 .thirth-iteam {
@@ -291,8 +288,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  width: 1128px;
-  margin-left: 156px;
+  margin: 0 auto;
 }
 
 .team-iteam {
@@ -352,7 +348,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
+  margin: 0 auto;
 }
 
 .second-logo {
@@ -364,7 +360,7 @@ body {
   line-height: 1.5;
   color: var(--color-cloud);
   max-width: 264px;
-  margin-left: 156px;
+  margin: 0 auto;
 }
 
 .secondary-btn {
@@ -396,8 +392,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: 1133px;
-  margin-left: 156px;
+  margin: 0 auto;
 }
 
 .product-iteam {
@@ -431,5 +426,7 @@ body {
 
 .container {
   width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
 }
