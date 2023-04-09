@@ -48,6 +48,19 @@ body {
 
 .header {
   background-color: var(--color-white);
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -58,6 +71,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo {
   color: var(--color-navy-blue);
@@ -68,10 +82,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-navy-blue);
+  display: flex;
+  gap: 40px;
 }
 
 .header-iteam {
   color: var(--color-navy-blue);
+  padding: 24px 0;
 }
 
 .header-iteam:hover,
@@ -81,6 +98,11 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.header-link {
+  display: flex;
+  gap: 40px;
 }
 
 .header-mail {
