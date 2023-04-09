@@ -170,7 +170,7 @@ body {
   text-align: center;
   color: var(--color-white);
   max-width: 496px;
-  margin: 0 auto;
+  margin-left: 472px;
   margin-bottom: 48px;
 }
 
@@ -188,7 +188,6 @@ body {
   gap: 24px;
   margin-bottom: 72px;
   width: 1440px;
-  border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 
@@ -209,7 +208,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin: 0 auto;
+  margin-left: 636px;
 }
 
 .main-btn:hover,
